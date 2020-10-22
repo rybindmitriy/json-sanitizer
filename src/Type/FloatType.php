@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+namespace jetdigger\JSONHandler\Type;
+
+use jetdigger\JSONHandler\Type;
+
+class FloatType implements Type
+{
+}

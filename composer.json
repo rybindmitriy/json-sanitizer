@@ -1,0 +1,21 @@
+{
+    "name": "dmitriyrybin/json-handler",
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Rybin",
+            "email": "jetdigger@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jetdigger\\JSONHandler\\": "src/"
+        }
+    },
+    "require": {
+      "ext-json": "*",
+      "php": "^7.4"
+    }
+}

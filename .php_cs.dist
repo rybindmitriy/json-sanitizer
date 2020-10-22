@@ -1,0 +1,17 @@
+<?php
+
+$finder =
+ PhpCsFixer\Finder::create()
+    ->in(__DIR__)
+    ->exclude('vendor')
+;
+
+return
+ PhpCsFixer\Config::create()
+    ->setRules([
+        '@Symfony'               => true,
+        'array_syntax'           => ['syntax' => 'short'],
+        'binary_operator_spaces' => ['operators' => ['=' => 'align', '=>' => 'align', '??=' => 'align']],
+    ])
+    ->setFinder($finder)
+;
